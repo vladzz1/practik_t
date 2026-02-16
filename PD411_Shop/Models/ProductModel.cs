@@ -9,7 +9,7 @@
         public string? Image { get; set; }
         public int Amount { get; set; }
         public string? Color { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedDate { get; set; } = DateTime.Parse("2026-02-16");
 
         public int CategoryId { get; set; }
         public CategoryModel? Category { get; set; }
