@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PD411_Shop.Data;
+using PD411_Shop.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +10,15 @@ builder.Services.AddControllersWithViews();
 // DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    string connectionString = @"Data Source = DESKTOP-B6M267U\\SQLEXPRESS; Initial Catalog = PD411_MVC_SHOP; Integrated Security = true; TrustServerCertificate = True";
+    string connectionString = @"Data Source = DESKTOP-B6M267U\SQLEXPRESS; Initial Catalog = PD411_MVC_SHOP; Integrated Security = true; TrustServerCertificate = True";
+    //string connectionString = @"Data Source = (localdb)\MSSqlLocalDb; Initial Catalog = PD411_MVC_SHOP; Integrated Security = true; TrustServerCertificate = True";
     options.UseSqlServer(connectionString);
 });
+
+// DI 
+// builder.Services.AddSingleton(); // патерн Singleton - об'єкт класу буде існувати в єдиноиу екземплярі
+// builder.Services.AddTransient(); // об'єкт класу буде створюватися при кожному використанні
+builder.Services.AddScoped<ProductRepostitory>(); // об'єкт класу буде створюватися при запиті та видаляти після його завершення
 
 var app = builder.Build();
 

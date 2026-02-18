@@ -12,7 +12,7 @@ using PD411_Shop.Data;
 namespace PD411_Shop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260212105442_Init")]
+    [Migration("20260217090154_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -143,7 +143,7 @@ namespace PD411_Shop.Migrations
                             Id = 1,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(3920),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/503464-641930-category_page/amd-ryzen-7-7800x3d-4250ghz-96mb-sam5-tray-100-100000910.png",
                             Name = "AMD Ryzen 7 7800X3D 4.2(5.0)GHz 96MB sAM5 Tray (100-000000910)",
                             Price = 16579.0
@@ -153,7 +153,7 @@ namespace PD411_Shop.Migrations
                             Id = 2,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(6988),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/417796-568215-category_page/amd-ryzen-5-5500-3642ghz-16mb-sam4-tray-100-000000457.png",
                             Name = "AMD Ryzen 5 5500 3.6(4.2)GHz 16MB sAM4 Tray (100-000000457)",
                             Price = 3549.0
@@ -163,7 +163,7 @@ namespace PD411_Shop.Migrations
                             Id = 3,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(6993),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/537768-1031541-category_page/amd-ryzen-5-7500f-3750ghz-32mb-sam5-tray-100-000000597.jpg",
                             Name = "AMD Ryzen 5 7500F 3.7(5.0)GHz 32MB sAM5 Tray (100-000000597)",
                             Price = 6999.0
@@ -173,7 +173,7 @@ namespace PD411_Shop.Migrations
                             Id = 4,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(6995),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/711314-878818-category_page/amd-ryzen-7-9800x3d-4752ghz-96mb-sam5-tray-100-000001084.jpg",
                             Name = "AMD Ryzen 7 9800X3D 4.7(5.2)GHz 96MB sAM5 Tray (100-000001084)",
                             Price = 21939.0
@@ -183,7 +183,7 @@ namespace PD411_Shop.Migrations
                             Id = 5,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(6998),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/537769-686742-category_page/amd-ryzen-7-7700-3853ghz-32mb-sam5-tray-100-000000592.png",
                             Name = "AMD Ryzen 7 7700 3.8(5.3)GHz 32MB sAM5 Tray (100-000000592)",
                             Price = 10299.0
@@ -193,7 +193,7 @@ namespace PD411_Shop.Migrations
                             Id = 6,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7000),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/826881-1063629-category_page/amd-ryzen-5-7500x3d-4045ghz-96mb-sam5-tray-100-000001904.jpg",
                             Name = "AMD Ryzen 5 7500X3D 4.0(4.5)GHz 96MB sAM5 Tray (100-000001904)",
                             Price = 11699.0
@@ -203,7 +203,7 @@ namespace PD411_Shop.Migrations
                             Id = 7,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7003),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/308346-471419-category_page/amd-ryzen-5-5600x-3746ghz-32mb-sam4-tray-100-000000065.png",
                             Name = "AMD Ryzen 5 5600X 3.7(4.6)GHz 32MB sAM4 Tray (100-000000065)",
                             Price = 6399.0
@@ -213,7 +213,7 @@ namespace PD411_Shop.Migrations
                             Id = 8,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7005),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/642817-792794-category_page/amd-ryzen-7-9700x-3855ghz-32mb-sam5-tray-100-000001404.jpg",
                             Name = "AMD Ryzen 7 9700X 3.8(5.5)GHz 32MB sAM5 Tray (100-000001404)",
                             Price = 13799.0
@@ -223,7 +223,7 @@ namespace PD411_Shop.Migrations
                             Id = 9,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7038),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/593671-736153-category_page/intel-core-i5-14400f-2547ghz-20mb-s1700-box-bx8071514400f.jpg",
                             Name = "Intel Core i5-14400F 2.5(4.7)GHz 20MB s1700 Box (BX8071514400F)",
                             Price = 8799.0
@@ -233,7 +233,7 @@ namespace PD411_Shop.Migrations
                             Id = 10,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7041),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/634728-784049-category_page/amd-ryzen-5-8400f-4247ghz-16mb-sam5-tray-100-000001591.png",
                             Name = "AMD Ryzen 5 8400F 4.2(4.7)GHz 16MB sAM5 Tray (100-000001591)",
                             Price = 4899.0
@@ -243,7 +243,7 @@ namespace PD411_Shop.Migrations
                             Id = 11,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7043),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/826241-1062681-category_page/amd-ryzen-5-7500x3d-4046ghz-96mb-sam5-box-100-100001904wof.png",
                             Name = "AMD Ryzen 5 7500X3D 4.0(4.5)GHz 96MB sAM5 Box (100-100001904WOF)",
                             Price = 11799.0
@@ -253,7 +253,7 @@ namespace PD411_Shop.Migrations
                             Id = 12,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7045),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/851350-1102440-category_page/amd-ryzen-7-5700x-3446ghz-32mb-sam4-box-100-100000926npk.png",
                             Name = "AMD Ryzen 7 5700X 3.4(4.6)GHz 32MB sAM4 Multipack (100-100000926NPK)",
                             Price = 8599.0
@@ -263,7 +263,7 @@ namespace PD411_Shop.Migrations
                             Id = 13,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7047),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/403290-554711-category_page/intel-core-i5-12400f-2544ghz-18mb-s1700-tray-cm8071504555318.png",
                             Name = "Intel Core i5-12400F 2.5(4.4)GHz 18MB s1700 Tray (CM8071504555318)",
                             Price = 6199.0
@@ -273,7 +273,7 @@ namespace PD411_Shop.Migrations
                             Id = 14,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7050),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/849498-1098146-category_page/amd-ryzen-7-9850x3d-4756ghz-96mb-sam5-box-100-100001973wof.png",
                             Name = "AMD Ryzen 7 9850X3D 4.7(5.6)GHz 96MB sAM5 Box (100-100001973WOF)",
                             Price = 28999.0
@@ -283,7 +283,7 @@ namespace PD411_Shop.Migrations
                             Id = 15,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7052),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/735550-906731-category_page/amd-ryzen-9-9950x3d-4357ghz-128mb-sam5-box-100-100000719wof.png",
                             Name = "AMD Ryzen 9 9950X3D 4.3(5.7)GHz 128MB sAM5 Box (100-100000719WOF)",
                             Price = 33999.0
@@ -293,7 +293,7 @@ namespace PD411_Shop.Migrations
                             Id = 16,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7054),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/538276-687335-category_page/intel-core-i5-14600kf-3553ghz-24mb-s1700-box-bx8071514600kf.jpg",
                             Name = "Intel Core i5-14600KF 3.5(5.3)GHz 24MB s1700 Box (BX8071514600KF)",
                             Price = 10999.0
@@ -303,7 +303,7 @@ namespace PD411_Shop.Migrations
                             Id = 17,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7057),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/642818-792792-category_page/amd-ryzen-7-9700x-3855ghz-32mb-sam5-box-100-100001404wof.png",
                             Name = "AMD Ryzen 7 9700X 3.8(5.5)GHz 32MB sAM5 Box (100-100001404WOF)",
                             Price = 14899.0
@@ -313,7 +313,7 @@ namespace PD411_Shop.Migrations
                             Id = 18,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7059),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/642819-830377-category_page/amd-ryzen-5-9600x-3954ghz-32mb-sam5-tray-100-000001405.jpg",
                             Name = "AMD Ryzen 5 9600X 3.9(5.4)GHz 32MB sAM5 Tray (100-000001405)",
                             Price = 10099.0
@@ -323,7 +323,7 @@ namespace PD411_Shop.Migrations
                             Id = 19,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7061),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/538278-687339-category_page/intel-core-i7-14700kf-3456ghz-33mb-s1700-box-bx8071514700kf.jpg",
                             Name = "Intel Core i7-14700KF 3.4(5.6)GHz 33MB s1700 Box (BX8071514700KF)",
                             Price = 17499.0
@@ -333,7 +333,7 @@ namespace PD411_Shop.Migrations
                             Id = 20,
                             Amount = 0,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7063),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/642815-792797-category_page/amd-ryzen-9-9900x-4456ghz-64mb-sam5-tray-100-000000662.jpg",
                             Name = "AMD Ryzen 9 9900X 4.4(5.6)GHz 64MB sAM5 Tray (100-000000662)",
                             Price = 19499.0
@@ -343,7 +343,7 @@ namespace PD411_Shop.Migrations
                             Id = 21,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7066),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/515777-663098-category_page/asus-prime-b650m-k-sam5-amd-b650.png",
                             Name = "Asus PRIME B650M-K (sAM5, AMD B650)",
                             Price = 4699.0
@@ -353,7 +353,7 @@ namespace PD411_Shop.Migrations
                             Id = 22,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7068),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/779682-982425-category_page/msi-b850m-gaming-plus-wifi6e-sam5-amd-b850.jpg",
                             Name = "MSI B850M GAMING PLUS WIFI6E (sAM5, AMD B850)",
                             Price = 7499.0
@@ -363,7 +363,7 @@ namespace PD411_Shop.Migrations
                             Id = 23,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7070),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/296930-462349-category_page/gigabyte-b550m-aorus-elite-sam4-amd-b550.png",
                             Name = "Gigabyte B550M AORUS ELITE (sAM4, AMD B550)",
                             Price = 4499.0
@@ -373,7 +373,7 @@ namespace PD411_Shop.Migrations
                             Id = 24,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7072),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/270184-486939-category_page/asus-tuf-gaming-b550m-plus-sam4-amd-b550.png",
                             Name = "Asus TUF GAMING B550M-PLUS (sAM4, AMD B550)",
                             Price = 5139.0
@@ -383,7 +383,7 @@ namespace PD411_Shop.Migrations
                             Id = 25,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7075),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/719299-887950-category_page/asus-tuf-gaming-b850-plus-wifi-sam5-amd-b850.jpg",
                             Name = "Asus TUF GAMING B850-PLUS WIFI (sAM5, AMD B850)",
                             Price = 10499.0
@@ -393,7 +393,7 @@ namespace PD411_Shop.Migrations
                             Id = 26,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7101),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/501732-640966-category_page/msi-b650-gaming-plus-wifi-sam5-amd-b650.png",
                             Name = "MSI B650 GAMING PLUS WIFI (sAM5, AMD B650)",
                             Price = 7799.0
@@ -403,7 +403,7 @@ namespace PD411_Shop.Migrations
                             Id = 27,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7130),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/771470-966412-category_page/asus-tuf-gaming-b850m-e-wifi-sam5-amd-b850.jpg",
                             Name = "Asus TUF GAMING B850M-E WIFI (sAM5, AMD B850)",
                             Price = 8996.0
@@ -413,7 +413,7 @@ namespace PD411_Shop.Migrations
                             Id = 28,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7133),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/730509-901144-category_page/gigabyte-b650m-gaming-plus-wifi-sam5-amd-b650.jpg",
                             Name = "Gigabyte B650M GAMING PLUS WIFI (sAM5, AMD B650)",
                             Price = 6399.0
@@ -423,7 +423,7 @@ namespace PD411_Shop.Migrations
                             Id = 29,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7135),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/588018-731769-category_page/gigabyte-b650-eagle-ax-sam5-amd-b650.jpg",
                             Name = "Gigabyte B650 EAGLE AX (sAM5, AMD B650)",
                             Price = 5999.0
@@ -433,7 +433,7 @@ namespace PD411_Shop.Migrations
                             Id = 30,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7137),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/789039-995869-category_page/asus-tuf-gaming-b850m-plus-wifi7-w-sam5-amd-b850.jpg",
                             Name = "Asus TUF GAMING B850M-PLUS WIFI7 W (sAM5, AMD B850)",
                             Price = 11499.0
@@ -443,7 +443,7 @@ namespace PD411_Shop.Migrations
                             Id = 31,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7139),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/822669-1055259-category_page/msi-meg-x870e-godlike-x-edition-sam5-amd-x870e.jpg",
                             Name = "MSI MEG X870E GODLIKE X EDITION (sAM5, AMD X870E)",
                             Price = 62999.0
@@ -453,7 +453,7 @@ namespace PD411_Shop.Migrations
                             Id = 32,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7142),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/720854-890471-category_page/msi-mag-b850-tomahawk-max-wifi-sam5-amd-b850.jpg",
                             Name = "MSI MAG B850 TOMAHAWK MAX WIFI (sAM5, AMD B850)",
                             Price = 13499.0
@@ -463,7 +463,7 @@ namespace PD411_Shop.Migrations
                             Id = 33,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7144),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/490842-630262-category_page/asus-rog-strix-b760-g-gaming-wifi-s1700-intel-b760.png",
                             Name = "Asus ROG STRIX B760-G GAMING WIFI (s1700, Intel B760)",
                             Price = 8029.0
@@ -473,7 +473,7 @@ namespace PD411_Shop.Migrations
                             Id = 34,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7146),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/666977-850975-category_page/asus-rog-strix-x870-i-gaming-wifi-sam5-amd-x870.jpg",
                             Name = "Asus ROG STRIX X870-I GAMING WIFI (sAM5, AMD X870)",
                             Price = 18999.0
@@ -483,7 +483,7 @@ namespace PD411_Shop.Migrations
                             Id = 35,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7148),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/437880-586147-category_page/asus-tuf-gaming-b650-plus.jpg",
                             Name = "Asus TUF GAMING B650-PLUS (sAM5, AMD B650)",
                             Price = 7799.0
@@ -493,7 +493,7 @@ namespace PD411_Shop.Migrations
                             Id = 36,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7151),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/719296-887919-category_page/asus-rog-strix-b850-e-gaming-wifi-sam5-amd-b850.jpg",
                             Name = "Asus ROG STRIX B850-E GAMING WIFI (sAM5, AMD B850)",
                             Price = 15999.0
@@ -503,7 +503,7 @@ namespace PD411_Shop.Migrations
                             Id = 37,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7153),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/754585-938421-category_page/asus-x870-max-gaming-wifi7-w-sam5-amd-x870.jpg",
                             Name = "Asus X870 MAX GAMING WIFI7 W (sAM5, AMD X870)",
                             Price = 13999.0
@@ -513,7 +513,7 @@ namespace PD411_Shop.Migrations
                             Id = 38,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7155),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/719297-887929-category_page/asus-rog-strix-b850-f-gaming-wifi-sam5-amd-b850.jpg",
                             Name = "Asus ROG STRIX B850-F GAMING WIFI (sAM5, AMD B850)",
                             Price = 13499.0
@@ -523,7 +523,7 @@ namespace PD411_Shop.Migrations
                             Id = 39,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7157),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/496655-635865-category_page/asus-rog-strix-b760-a-gaming-wifi-s1700-intel-b760.png",
                             Name = "Asus ROG STRIX B760-A GAMING WIFI (s1700, Intel B760)",
                             Price = 10299.0
@@ -533,7 +533,7 @@ namespace PD411_Shop.Migrations
                             Id = 40,
                             Amount = 0,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7160),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/754591-939305-category_page/asus-tuf-gaming-b850-btf-wifi-w-sam5-amd-b850.jpg",
                             Name = "Asus TUF GAMING B850-BTF WIFI W (sAM5, AMD B850)",
                             Price = 11799.0
@@ -543,7 +543,7 @@ namespace PD411_Shop.Migrations
                             Id = 41,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7162),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/757515-941984-category_page/asus-dual-geforce-rtx-5060-oc-8192mb-dual-rtx5060-o8g.jpg",
                             Name = "Asus Dual GeForce RTX 5060 OC 8192MB (DUAL-RTX5060-O8G)",
                             Price = 17999.0
@@ -553,7 +553,7 @@ namespace PD411_Shop.Migrations
                             Id = 42,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7164),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/837162-1077227-category_page/asus-rog-matrix-platinum-rtx-5090-30th-anniversary-edition-32768mb-rog-matrix-rtx5090-p32g-30th.jpg",
                             Name = "Asus ROG Matrix Platinum RTX 5090 30th Anniversary Edition 32768MB (ROG-MATRIX-RTX5090-P32G-30TH)",
                             Price = 314999.0
@@ -563,7 +563,7 @@ namespace PD411_Shop.Migrations
                             Id = 43,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7188),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/788569-994342-category_page/gigabyte-geforce-rtx-5060-windforce-max-oc-8192mb-gv-n5060wf2max-oc-8gd.jpg",
                             Name = "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8192MB (GV-N5060WF2MAX OC-8GD)",
                             Price = 16999.0
@@ -573,7 +573,7 @@ namespace PD411_Shop.Migrations
                             Id = 44,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7190),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/721158-973442-category_page/asus-prime-geforce-rtx-5070-oc-12288mb-prime-rtx5070-o12g.jpg",
                             Name = "Asus PRIME GeForce RTX 5070 OC 12288MB (PRIME-RTX5070-O12G)",
                             Price = 37499.0
@@ -583,7 +583,7 @@ namespace PD411_Shop.Migrations
                             Id = 45,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7193),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712904-898331-category_page/gigabyte-geforce-rtx-5070-windforce-oc-12288mb-gv-n5070wf3oc-12gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 WINDFORCE SFF OC 12288MB (GV-N5070WF3OC-12GD)",
                             Price = 34999.0
@@ -593,7 +593,7 @@ namespace PD411_Shop.Migrations
                             Id = 46,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7195),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712893-1008567-category_page/gigabyte-geforce-rtx-5070-ti-gaming-oc-16384mb-gv-n507tgaming-oc-16gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 Ti GAMING OC 16384MB (GV-N507TGAMING OC-16GD)",
                             Price = 58999.0
@@ -603,7 +603,7 @@ namespace PD411_Shop.Migrations
                             Id = 47,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7197),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712899-1008557-category_page/gigabyte-geforce-rtx-5070-gaming-oc-12288mb-gv-n5070gaming-oc-12gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 GAMING OC 12288MB (GV-N5070GAMING OC-12GD)",
                             Price = 36999.0
@@ -613,7 +613,7 @@ namespace PD411_Shop.Migrations
                             Id = 48,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7199),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712900-898223-category_page/gigabyte-geforce-rtx-5070-aorus-master-12288mb-gv-n5070aorus-m-12gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 AORUS MASTER 12288MB (GV-N5070AORUS M-12GD)",
                             Price = 42699.0
@@ -623,7 +623,7 @@ namespace PD411_Shop.Migrations
                             Id = 49,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7201),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712898-898321-category_page/gigabyte-geforce-rtx-5070-ti-windforce-oc-16384mb-gv-n507twf3oc-16gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 Ti WINDFORCE SFF OC 16384MB (GV-N507TWF3OC-16GD)",
                             Price = 58999.0
@@ -633,7 +633,7 @@ namespace PD411_Shop.Migrations
                             Id = 50,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7204),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/757528-942008-category_page/asus-dual-geforce-rtx-5060-ti-oc-16384mb-dual-rtx5060ti-o16g.jpg",
                             Name = "Asus Dual GeForce RTX 5060 Ti OC 16384MB (DUAL-RTX5060TI-O16G)",
                             Price = 31499.0
@@ -643,7 +643,7 @@ namespace PD411_Shop.Migrations
                             Id = 51,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7206),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/721162-896365-category_page/asus-prime-geforce-rtx-5070-ti-oc-16384mb-prime-rtx5070ti-o16g.jpg",
                             Name = "Asus PRIME GeForce RTX 5070 Ti OC 16384MB (PRIME-RTX5070TI-O16G)",
                             Price = 60999.0
@@ -653,7 +653,7 @@ namespace PD411_Shop.Migrations
                             Id = 52,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7208),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/761103-946774-category_page/asus-dual-geforce-rtx-5070-oc-12288mb-dual-rtx5070-o12g.jpg",
                             Name = "Asus Dual GeForce RTX 5070 OC 12288MB (DUAL-RTX5070-O12G)",
                             Price = 36499.0
@@ -663,7 +663,7 @@ namespace PD411_Shop.Migrations
                             Id = 53,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7210),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/721174-896470-category_page/asus-rog-astral-geforce-rtx-5090-oc-32768mb-rog-astral-rtx5090-o32g-gaming.jpg",
                             Name = "Asus ROG Astral GeForce RTX 5090 OC 32768MB (ROG-ASTRAL-RTX5090-O32G-GAMING)",
                             Price = 189999.0
@@ -673,7 +673,7 @@ namespace PD411_Shop.Migrations
                             Id = 54,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7213),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/771442-1011115-category_page/asus-geforce-rtx-5080-noctua-oc-16384mb-rtx5080-o16g-noctua.jpg",
                             Name = "Asus GeForce RTX 5080 Noctua OC 16384MB (RTX5080-O16G-NOCTUA)",
                             Price = 95999.0
@@ -683,7 +683,7 @@ namespace PD411_Shop.Migrations
                             Id = 55,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7215),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/758165-943507-category_page/inno3d-geforce-rtx-5090-x3-oc-32768mb-n50903-32d7x-17593928.jpg",
                             Name = "Inno3D GeForce RTX 5090 X3 OC 32768MB (N50903-32D7X-17593928)",
                             Price = 167999.0
@@ -693,7 +693,7 @@ namespace PD411_Shop.Migrations
                             Id = 56,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7217),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/820501-1051379-category_page/inno3d-geforce-rtx-5080-ichill-x3-16384mb-c50803-16d7x-176069r.png",
                             Name = "Inno3D GeForce RTX 5080 iCHILL X3 16384MB (C50803-16D7X-176069R)",
                             Price = 79999.0
@@ -703,7 +703,7 @@ namespace PD411_Shop.Migrations
                             Id = 57,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7219),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/721720-889341-category_page/inno3d-geforce-rtx-5080-x3-oc-16384mb-n50803-16d7x-17603930.jpg",
                             Name = "Inno3D GeForce RTX 5080 X3 OC 16384MB (N50803-16D7X-17603930)",
                             Price = 69999.0
@@ -713,7 +713,7 @@ namespace PD411_Shop.Migrations
                             Id = 58,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7222),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/820217-1051315-category_page/inno3d-geforce-rtx-5070-ti-ichill-x3-16384mb-c507t3-16d7x-176069r.jpg",
                             Name = "Inno3D GeForce RTX 5070 Ti iCHILL X3 16384MB (C507T3-16D7X-176069R)",
                             Price = 59999.0
@@ -723,7 +723,7 @@ namespace PD411_Shop.Migrations
                             Id = 59,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7224),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/757625-941653-category_page/inno3d-geforce-rtx-5060-ti-twin-x2-oc-16384mb-n506t2-16d7x-191073n.jpg",
                             Name = "Inno3D GeForce RTX 5060 Ti TWIN X2 OC 16384MB (N506T2-16D7X-191073N)",
                             Price = 29499.0
@@ -733,7 +733,7 @@ namespace PD411_Shop.Migrations
                             Id = 60,
                             Amount = 0,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7247),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/712903-898243-category_page/gigabyte-geforce-rtx-5070-eagle-oc-12288mb-gv-n5070eagle-oc-12gd.jpg",
                             Name = "Gigabyte GeForce RTX 5070 EAGLE SFF OC 12288MB (GV-N5070EAGLE OC-12GD)",
                             Price = 35999.0
@@ -744,7 +744,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7249),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/669406-826235-category_page/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c36bbe2k2-32.jpg",
                             Name = "Kingston DDR5 32GB (2x16GB) 6000Mhz FURY Beast Black (KF560C36BBE2K2-32)",
                             Price = 17999.0
@@ -755,7 +755,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7252),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/374722-1099287-category_page/kingston-ddr4-16gb-2x8gb-3200mhz-fury-beast-black-kf432c16bbk216.jpg",
                             Name = "Kingston DDR4 16GB (2x8GB) 3200Mhz FURY Beast Black (KF432C16BBK2/16)",
                             Price = 5989.0
@@ -766,7 +766,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7254),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/619187-764873-category_page/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbek2-32.jpg",
                             Name = "Kingston DDR5 32GB (2x16GB) 6000Mhz FURY Beast Black (KF560C30BBEK2-32)",
                             Price = 19699.0
@@ -777,7 +777,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7256),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/374725-526249-category_page/kingston-ddr4-32gb-2x16gb-3200mhz-fury-beast-black-kf432c16bb1k232.jpg",
                             Name = "Kingston DDR4 32GB (2x16GB) 3200Mhz FURY Beast Black (KF432C16BB1K2/32)",
                             Price = 9499.0
@@ -788,7 +788,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7258),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/619247-765478-category_page/kingston-ddr5-32gb-2x16gb-6000mhz-fury-beast-black-kf560c30bbk2-32.jpg",
                             Name = "Kingston DDR5 32GB (2x16GB) 6000Mhz FURY Beast Black (KF560C30BBK2-32)",
                             Price = 19599.0
@@ -799,7 +799,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7261),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/374737-526274-category_page/kingston-ddr4-32gb-2x16gb-3600mhz-fury-beast-black-kf436c18bbk232.jpg",
                             Name = "Kingston DDR4 32GB (2x16GB) 3600Mhz FURY Beast Black (KF436C18BBK2/32)",
                             Price = 9799.0
@@ -810,7 +810,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7263),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/390312-542686-category_page/kingston-ddr5-32gb-2x16gb-5200mhz-fury-beast-black-kf552c40bbk2-32.jpg",
                             Name = "Kingston DDR5 32GB (2x16GB) 5200Mhz FURY Beast Black (KF552C40BBK2-32)",
                             Price = 13999.0
@@ -821,7 +821,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7265),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/374679-523387-category_page/kingston-sodimm-ddr4-32gb-2x16gb-3200mhz-fury-impact-black-kf432s20ibk232.jpg",
                             Name = "Kingston SODIMM DDR4 32GB (2x16GB) 3200Mhz FURY Impact Black (KF432S20IBK2/32)",
                             Price = 9719.0
@@ -832,7 +832,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7268),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/619258-765725-category_page/kingston-ddr5-64gb-2x32gb-6400mhz-fury-beast-black-kf564c32bbk2-64.jpg",
                             Name = "Kingston DDR5 64GB (2x32GB) 6400Mhz FURY Beast Black (KF564C32BBK2-64)",
                             Price = 39999.0
@@ -843,7 +843,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7270),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/205723-393078-category_page/gskill-ddr4-16gb-2x8gb-3200mhz-aegis-f4-3200c16d-16gis.jpg",
                             Name = "G.Skill DDR4 16GB (2x8GB) 3200Mhz Aegis (F4-3200C16D-16GIS)",
                             Price = 5729.0
@@ -854,7 +854,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7272),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/80823-554140-category_page/gskill-ddr4-32gb-2x16gb-3200mhz-ripjaws-v-f4-3200c16d-32gvk.png",
                             Name = "G.Skill DDR4 32GB (2x16GB) 3200Mhz Ripjaws V (F4-3200C16D-32GVK)",
                             Price = 9799.0
@@ -865,7 +865,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7274),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/327406-480969-category_page/corsair-ddr4-32gb-2x16gb-3600mhz-vengeance-lpx-black-cmk32gx4m2d3600c18.png",
                             Name = "Corsair DDR4 32GB (2x16GB) 3600Mhz Vengeance LPX Black (CMK32GX4M2D3600C18)",
                             Price = 9799.0
@@ -876,7 +876,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7277),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/591587-735805-category_page/patriot-ddr5-32gb-2x16gb-6000mhz-viper-venom-pvv532g600c36k.jpg",
                             Name = "Patriot DDR5 32GB (2x16GB) 6000Mhz Viper Venom (PVV532G600C36K)",
                             Price = 16299.0
@@ -887,7 +887,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7279),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/205725-393084-category_page/gskill-ddr4-32gb-2x16gb-3200mhz-aegis-f4-3200c16d-32gis.jpg",
                             Name = "G.Skill DDR4 32GB (2x16GB) 3200Mhz Aegis (F4-3200C16D-32GIS)",
                             Price = 10399.0
@@ -898,7 +898,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7282),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/71720-478561-category_page/gskill-ddr4-16gb-2x8gb-3200mhz-ripjaws-v-f4-3200c16d-16gvkb.png",
                             Name = "G.Skill DDR4 16GB (2x8GB) 3200Mhz Ripjaws V (F4-3200C16D-16GVKB)",
                             Price = 5909.0
@@ -909,7 +909,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7305),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/374728-1047822-category_page/kingston-ddr4-32gb-2x16gb-3200mhz-fury-beast-black-kf432c16bbk232.jpg",
                             Name = "Kingston DDR4 32GB (2x16GB) 3200Mhz FURY Beast Black (KF432C16BBK2/32)",
                             Price = 10899.0
@@ -920,7 +920,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7307),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/399081-551397-category_page/kingston-ddr5-16gb-5600mhz-fury-beast-black-kf556c40bb-16.jpg",
                             Name = "Kingston DDR5 16GB 5600Mhz FURY Beast Black (KF556C40BB-16)",
                             Price = 8999.0
@@ -931,7 +931,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7309),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/627136-773063-category_page/lexar-ddr4-16gb-2x8gb-3600mhz-thor-white-ld4bu008g-r3600gdwg.jpg",
                             Name = "Lexar DDR4 16GB (2x8GB) 3600Mhz Thor White (LD4BU008G-R3600GDWG)",
                             Price = 5399.0
@@ -942,7 +942,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7311),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/564610-712835-category_page/gskill-ddr5-32gb-2x16gb-6000mhz-trident-z5-neo-rgb-white-f5-6000j3036f16gx2-tz5nrw.jpg",
                             Name = "G.Skill DDR5 32GB (2x16GB) 6000Mhz Trident Z5 Neo RGB White (F5-6000J3036F16GX2-TZ5NRW)",
                             Price = 22999.0
@@ -953,7 +953,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 4,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7313),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/591162-734940-category_page/gskill-ddr5-32gb-2x16gb-6000mhz-flare-x5-f5-6000j3038f16gx2-fx5.jpg",
                             Name = "G.Skill DDR5 32GB (2x16GB) 6000Mhz Flare X5 (F5-6000J3038F16GX2-FX5)",
                             Price = 19999.0
@@ -964,7 +964,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Синій",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7316),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/659314-814483-category_page/kingston-nv3-3d-nand-1tb-m2-2280-pci-e-nvme-x4-snv3s1000g.jpg",
                             Name = "Kingston NV3 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SNV3S/1000G)",
                             Price = 7989.0
@@ -975,7 +975,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7318),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/445260-588761-category_page/samsung-990-pro-v-nand-3-bit-mlc-1tb-m2-2280-pci-e-nvme-20-mz-v9p1t0bw.jpg",
                             Name = "Samsung 990 PRO V-NAND 3-bit MLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P1T0BW)",
                             Price = 9799.0
@@ -986,7 +986,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7320),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/390090-542534-category_page/kingston-kc3000-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-skc3000s1024g.jpg",
                             Name = "Kingston KC3000 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SKC3000S/1024G)",
                             Price = 12689.0
@@ -997,7 +997,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7323),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/445261-588773-category_page/samsung-990-pro-v-nand-3-bit-mlc-2tb-m2-2280-pci-e-nvme-20-mz-v9p2t0bw.jpg",
                             Name = "Samsung 990 PRO V-NAND 3-bit MLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P2T0BW)",
                             Price = 15099.0
@@ -1008,7 +1008,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Синій",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7325),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/659313-814492-category_page/kingston-nv3-3d-nand-500gb-m2-2280-pci-e-nvme-x4-snv3s500g.jpg",
                             Name = "Kingston NV3 3D NAND 500GB M.2 (2280 PCI-E) NVMe x4 (SNV3S/500G)",
                             Price = 4989.0
@@ -1019,7 +1019,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Синій",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7327),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/659315-814486-category_page/kingston-nv3-3d-nand-2tb-m2-2280-pci-e-nvme-x4-snv3s2000g.jpg",
                             Name = "Kingston NV3 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SNV3S/2000G)",
                             Price = 15299.0
@@ -1030,7 +1030,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7329),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/67022-425930-category_page/kingston-ssdnow-a400-tlc-480gb-25-sa400s37480g.jpg",
                             Name = "Kingston SSDNow A400 TLC 480GB 2.5'' (SA400S37/480G)",
                             Price = 5089.0
@@ -1041,7 +1041,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7331),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/762637-950354-category_page/western-digital-black-sn7100-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-wds100t4x0e.jpg",
                             Name = "Western Digital Black SN7100 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T4X0E)",
                             Price = 8799.0
@@ -1052,7 +1052,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7334),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/487293-626221-category_page/patriot-p400-lite-1tb-m2-2280-pci-e-nvme-x4-p400lp1kgm28h.jpg",
                             Name = "Patriot P400 Lite 1TB M.2 (2280 PCI-E) NVMe x4 (P400LP1KGM28H)",
                             Price = 6099.0
@@ -1063,7 +1063,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7336),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/320863-477300-category_page/goodram-cx400-gen2-3d-nand-tlc-128gb-25-ssdpr-cx400-128-g2.png",
                             Name = "GoodRAM CX400 Gen.2 3D NAND TLC 128GB 2.5\" (SSDPR-CX400-128-G2)",
                             Price = 1229.0
@@ -1074,7 +1074,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7338),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/754925-936926-category_page/kingston-fury-renegade-g5-3d-tlc-nand-2tb-m2-2280-pci-e-nvme-x4-sfyr2s2t0.jpg",
                             Name = "Kingston FURY Renegade G5 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (SFYR2S/2T0)",
                             Price = 26439.0
@@ -1085,7 +1085,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7340),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/446792-589426-category_page/kingston-fury-renegade-with-heatsink-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-sfyrsk1000g.jpg",
                             Name = "Kingston FURY Renegade with Heatsink 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SFYRSK/1000G)",
                             Price = 14649.0
@@ -1096,7 +1096,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7363),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/467612-604457-category_page/crucial-p3-plus-3d-nand-2tb-m2-2280-pci-e-ct2000p3pssd8.jpg",
                             Name = "Crucial P3 Plus 3D NAND 2TB M.2 (2280 PCI-E) (CT2000P3PSSD8)",
                             Price = 11899.0
@@ -1107,7 +1107,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7366),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/849544-1098577-category_page/orico-e3500-3d-nand-qlc-1tb-m2-2280-pci-e-nvme-x4-orico-e3500-1tb-bl-bp.jpg",
                             Name = "ORICO e3500 3D NAND QLC 1TB M.2 (2280 PCI-E) NVMe x4 (ORICO-e3500-1TB-BL-BP)",
                             Price = 5299.0
@@ -1118,7 +1118,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7368),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/849547-1098696-category_page/orico-e7400-3d-nand-qlc-512gb-m2-2280-pci-e-nvme-x4-orico-e7400-512gb-gd-bp.jpg",
                             Name = "ORICO e7400 3D NAND QLC 512GB M.2 (2280 PCI-E) NVMe x4 (ORICO-e7400-512GB-GD-BP)",
                             Price = 3899.0
@@ -1129,7 +1129,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7370),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/849543-1098641-category_page/orico-e3500-3d-nand-qlc-512gb-m2-2280-pci-e-nvme-x4-orico-e3500-512gb-bl-bp.jpg",
                             Name = "ORICO e3500 3D NAND QLC 512GB M.2 (2280 PCI-E) NVMe x4 (ORICO-e3500-512GB-BL-BP)",
                             Price = 3399.0
@@ -1140,7 +1140,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7372),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/467625-604518-category_page/samsung-870-evo-v-nand-1tb-25-mz-77e1t0b.jpg",
                             Name = "Samsung 870 EVO V-NAND 1TB 2.5\" (MZ-77E1T0B)",
                             Price = 8639.0
@@ -1151,7 +1151,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7375),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/243281-427376-category_page/patriot-p300-512gb-m2-2280-pci-e-nvme-x4-p300p512gm28.jpg",
                             Name = "Patriot P300 512GB M.2 (2280 PCI-E) NVMe x4 (P300P512GM28)",
                             Price = 3839.0
@@ -1162,7 +1162,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7377),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/390094-542522-category_page/kingston-fury-renegade-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-sfyrs1000g.jpg",
                             Name = "Kingston FURY Renegade 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SFYRS/1000G)",
                             Price = 9999.0
@@ -1173,7 +1173,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 5,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7379),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/390089-542543-category_page/kingston-kc3000-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-skc3000s512g.jpg",
                             Name = "Kingston KC3000 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (SKC3000S/512G)",
                             Price = 7989.0
@@ -1183,7 +1183,7 @@ namespace PD411_Shop.Migrations
                             Id = 101,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7381),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/487304-626256-category_page/toshiba-p300-2tb-128mb-5400rpm-35-hdwd320uzsva-bulk.jpg",
                             Name = "Toshiba P300 2TB 256MB 7200RPM 3.5'' (HDWD320UZSVA) Bulk",
                             Price = 4999.0
@@ -1193,7 +1193,7 @@ namespace PD411_Shop.Migrations
                             Id = 102,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7384),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/11483-907265-category_page/western-digital-caviar-blue-1tb-64mb-7200rpm-35-wd10ezex.png",
                             Name = "Western Digital Blue 1TB 64MB 3.5\" (WD10EZEX)",
                             Price = 4399.0
@@ -1203,7 +1203,7 @@ namespace PD411_Shop.Migrations
                             Id = 103,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7386),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/11472-357613-category_page/toshiba-500gb-32mb-7200rpm-35-dt01aca050.jpg",
                             Name = "Toshiba 500GB 32MB 7200RPM 3.5\" (DT01ACA050)",
                             Price = 1399.0
@@ -1213,7 +1213,7 @@ namespace PD411_Shop.Migrations
                             Id = 104,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7388),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835675-1075217-category_page/western-digital-red-plus-nas-8tb-256mb-7200rpm-35-wd80efbx-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Red Plus NAS 8TB 256MB 7200RPM 3.5\" (WD80EFBX) (Відновлено продавцем, 835675)",
                             Price = 4499.0
@@ -1223,7 +1223,7 @@ namespace PD411_Shop.Migrations
                             Id = 105,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7390),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835676-1075214-category_page/western-digital-purple-surveillance-8tb-256mb-7200rpm-35-wd82purz-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Purple Surveillance 8TB 256MB 7200RPM 3.5\" (WD82PURZ) (Відновлено продавцем, 835676)",
                             Price = 4299.0
@@ -1233,7 +1233,7 @@ namespace PD411_Shop.Migrations
                             Id = 106,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7393),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835670-1075210-category_page/western-digital-purple-surveillance-10tb-256mb-7200rpm-35-wd102purz-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Purple Surveillance 10TB 256MB 7200RPM 3.5\" (WD102PURZ) (Відновлено продавцем, 835670)",
                             Price = 4999.0
@@ -1243,7 +1243,7 @@ namespace PD411_Shop.Migrations
                             Id = 107,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7395),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835674-1075209-category_page/western-digital-gold-enterprise-class-16tb-512mb-7200rpm-35-wd161kryz-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Gold Enterprise Class 16TB 512MB 7200RPM 3.5'' (WD161KRYZ) (Відновлено продавцем, 835674)",
                             Price = 9499.0
@@ -1253,7 +1253,7 @@ namespace PD411_Shop.Migrations
                             Id = 108,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7397),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835668-1075179-category_page/western-digital-ultrastar-dc-hc550-512e4kn-18tb-7200rpm-35-wuh721818ale6l40f38459-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Ultrastar DC HC550 512e/4Kn 18TB 7200RPM 3.5\" (WUH721818ALE6L4/0F38459) (Відновлено продавцем, 835668)",
                             Price = 10999.0
@@ -1263,7 +1263,7 @@ namespace PD411_Shop.Migrations
                             Id = 109,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7420),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835666-1075204-category_page/seagate-ironwolf-pro-nas-14tb-512e-256mb-7200rpm-35-st14000ne0008-vosstanovleno-prodavtsom.jpg",
                             Name = "Seagate IronWolf Pro (NAS) 14TB 512e 256MB 7200RPM 3.5\" (ST14000NE0008) (Відновлено продавцем, 835666)",
                             Price = 7499.0
@@ -1273,7 +1273,7 @@ namespace PD411_Shop.Migrations
                             Id = 110,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7423),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835671-1075216-category_page/western-digital-red-plus-nas-14tb-512mb-7200rpm-35-wd140efgx-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Red Plus NAS 14TB 512MB 7200RPM 3.5\" (WD140EFGX) (Відновлено продавцем, 835671)",
                             Price = 7499.0
@@ -1283,7 +1283,7 @@ namespace PD411_Shop.Migrations
                             Id = 111,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7425),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835673-1075218-category_page/western-digital-red-pro-16tb-512mb-7200rpm-35-wd161kfgx-vosstanovleno-prodavtsom.jpg",
                             Name = "Western Digital Red Pro 16TB 512MB 7200RPM 3.5'' (WD161KFGX) (Відновлено продавцем, 835673)",
                             Price = 9499.0
@@ -1293,7 +1293,7 @@ namespace PD411_Shop.Migrations
                             Id = 112,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7427),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/835667-1075182-category_page/seagate-exos-x18-512e4kn-18tb-35-st18000nm000j-vosstanovleno-prodavtsom.jpg",
                             Name = "Seagate Exos X18 512E/4kn 18TB 3.5\" (ST18000NM000J) (Відновлено продавцем, 835667)",
                             Price = 10999.0
@@ -1303,7 +1303,7 @@ namespace PD411_Shop.Migrations
                             Id = 113,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7429),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/89152-407357-category_page/seagate-barracuda-2tb-256mb-7200rpm-35-st2000dm008.jpg",
                             Name = "Seagate BarraCuda 2TB 256MB 7200RPM 3.5\" (ST2000DM008)",
                             Price = 5299.0
@@ -1313,7 +1313,7 @@ namespace PD411_Shop.Migrations
                             Id = 114,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7432),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/828679-1066435-category_page/seagate-skyhawk-surveillance-8tb-256mb-7200rpm-35-st8000vx004-828679.jpg",
                             Name = "Seagate SkyHawk Surveillance 8TB 256MB 7200RPM 3.5\" (ST8000VX004) (Відновлено продавцем, 828679)",
                             Price = 4499.0
@@ -1323,7 +1323,7 @@ namespace PD411_Shop.Migrations
                             Id = 115,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7434),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Western Digital Blue 4TB 128MB 5400RPM 3.5\" (WD40EZZX) (Пошкоджено пакування, 846915)",
                             Price = 6799.0
                         },
@@ -1332,7 +1332,7 @@ namespace PD411_Shop.Migrations
                             Id = 116,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7436),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/844054-1088944-category_page/western-digital-blue-4tb-128mb-5400rpm-35-wd40ezzx.jpg",
                             Name = "Western Digital Blue 4TB 128MB 5400RPM 3.5\" (WD40EZZX)",
                             Price = 8499.0
@@ -1342,7 +1342,7 @@ namespace PD411_Shop.Migrations
                             Id = 117,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7438),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/69709-231027-category_page/seagate-barracuda-4tb-256mb-5400rpm-35-st4000dm004.jpg",
                             Name = "Seagate BarraCuda 4TB 256MB 5400RPM 3.5'' (ST4000DM004)",
                             Price = 7599.0
@@ -1352,7 +1352,7 @@ namespace PD411_Shop.Migrations
                             Id = 118,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7440),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/635742-785328-category_page/seagate-skyhawk-1tb-256mb-5400rpm-35-st1000vx013.jpg",
                             Name = "Seagate SkyHawk 1TB 256MB 5400RPM 3.5\" (ST1000VX013)",
                             Price = 3999.0
@@ -1362,7 +1362,7 @@ namespace PD411_Shop.Migrations
                             Id = 119,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7443),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/635745-785332-category_page/seagate-skyhawk-2tb-256mb-5400rpm-35-st2000vx017.jpg",
                             Name = "Seagate SkyHawk 2TB 256MB 5400RPM 3.5\" (ST2000VX017)",
                             Price = 4499.0
@@ -1372,7 +1372,7 @@ namespace PD411_Shop.Migrations
                             Id = 120,
                             Amount = 0,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7453),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/61937-407372-category_page/seagate-barracuda-4tb-128mb-5400rpm-25-st4000lm024.jpg",
                             Name = "Seagate BarraCuda 4TB 128MB 5400RPM 2.5'' (ST4000LM024)",
                             Price = 6999.0
@@ -1383,7 +1383,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7455),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/628001-775130-category_page/gigabyte-p650ss-650w-gp-p650ss-black.jpg",
                             Name = "Gigabyte P650SS 650W (GP-P650SS) Black",
                             Price = 2499.0
@@ -1394,7 +1394,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7457),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/307833-661708-category_page/gigabyte-p750gm-750w-gp-p750gm.png",
                             Name = "Gigabyte P750GM 750W (GP-P750GM)",
                             Price = 3999.0
@@ -1405,7 +1405,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7460),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/470850-873378-category_page/be-quiet-pure-power-12-m-850w-bn344.jpg",
                             Name = "Be Quiet! Pure Power 12 M 850W (BN344)",
                             Price = 6092.0
@@ -1416,7 +1416,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7462),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/728270-897725-category_page/msi-mpg-850w-pcie5-a850gs-pcie5.jpg",
                             Name = "MSI MPG 850W PCIE5 (A850GS PCIE5)",
                             Price = 7099.0
@@ -1427,7 +1427,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7464),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/759301-943899-category_page/be-quiet-system-power-11-u-750w-bp012us.jpg",
                             Name = "Be Quiet! System Power 11 U 750W (BP012EU)",
                             Price = 3579.0
@@ -1438,7 +1438,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7487),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/791730-1000178-category_page/gigabyte-p650g-pcie-51-650w-gp-p650g-pg5.jpg",
                             Name = "Gigabyte P650G PCIE 5.1 650W (GP-P650G PG5)",
                             Price = 2999.0
@@ -1449,7 +1449,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7490),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/527494-677320-category_page/asus-rog-strix-pcie5-1200w-aura-edition-90ye00p0-b0na00.png",
                             Name = "Asus ROG Strix PCIE5 1200W Aura Edition (90YE00P0-B0NA00)",
                             Price = 12439.0
@@ -1460,7 +1460,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7492),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/526140-674842-category_page/msi-mag-850w-pcie5-a850gl.png",
                             Name = "MSI MAG 850W PCIE5 (A850GL)",
                             Price = 5699.0
@@ -1471,7 +1471,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7494),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/640608-790765-category_page/gigabyte-ae1000pm-pg5-1000w-gp-ae1000pm-pg5-black.jpg",
                             Name = "Gigabyte AE1000PM PG5 1000W (GP-AE1000PM PG5) Black",
                             Price = 8499.0
@@ -1482,7 +1482,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7496),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/642862-793889-category_page/gigabyte-ud1600pm-pg5-1600w-gp-ud1600pm-pg5.jpg",
                             Name = "Gigabyte UD1600PM PG5 1600W (GP-UD1600PM PG5)",
                             Price = 16999.0
@@ -1493,7 +1493,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7498),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/730053-900333-category_page/nzxt-c1200w-atx-31-pa-2g2bb-eu-black.jpg",
                             Name = "NZXT C1200W ATX 3.1 (PA-2G2BB-EU) Black",
                             Price = 12199.0
@@ -1503,7 +1503,7 @@ namespace PD411_Shop.Migrations
                             Id = 132,
                             Amount = 0,
                             CategoryId = 7,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7501),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/821565-1053411-category_page/asus-rog-thor-1200w-platinum-iii-hatsune-miku-edition-90ye00v6-b0na00.jpg",
                             Name = "Asus ROG Thor 1200W Platinum III Hatsune Miku Edition (90YE00V6-B0NA00)",
                             Price = 24999.0
@@ -1514,7 +1514,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7503),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/761776-947567-category_page/asus-rog-thor-1000w-platinum-iii-90ye00v3-b0na00.jpg",
                             Name = "Asus ROG Thor 1000W Platinum III (90YE00V3-B0NA00)",
                             Price = 20999.0
@@ -1525,7 +1525,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7505),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/759302-943896-category_page/be-quiet-system-power-11-u-650w-bp011us.jpg",
                             Name = "Be Quiet! System Power 11 U 650W (BP011EU)",
                             Price = 3119.0
@@ -1536,7 +1536,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7507),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/622989-769063-category_page/msi-mag-1000w-pcie5-a1000gl.png",
                             Name = "MSI MAG 1000W PCIE5 (A1000GL)",
                             Price = 7599.0
@@ -1547,7 +1547,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7510),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/628002-775124-category_page/gigabyte-p650ss-650w-gp-p650ss-ice-white.jpg",
                             Name = "Gigabyte P650SS 650W (GP-P650SS ICE) White",
                             Price = 2549.0
@@ -1558,7 +1558,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7512),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/622988-836203-category_page/msi-mag-1250w-pcie5-a1250gl.png",
                             Name = "MSI MAG 1250W PCIE5 (A1250GL)",
                             Price = 9599.0
@@ -1569,7 +1569,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7514),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/618655-764296-category_page/corsair-rm750x-shift-750w-cp-9020273-eu-white.jpg",
                             Name = "Corsair RM750x Shift 750W (CP-9020273-EU) White",
                             Price = 8028.0
@@ -1580,7 +1580,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7516),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/500607-661741-category_page/gigabyte-ud1300gm-pg5-1300w-gp-ud1300gm-pg5.png",
                             Name = "Gigabyte UD1300GM PG5 1300W (GP-UD1300GM PG5)",
                             Price = 9999.0
@@ -1591,7 +1591,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 7,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7519),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/781034-1067643-category_page/thermalright-sp-850-850w-tr-sp850-black.jpg",
                             Name = "Thermalright SP-850 850W (TR-SP850) Black",
                             Price = 5899.0
@@ -1602,7 +1602,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7521),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/774302-1003984-category_page/sama-3307-140mm-bez-bp-black.jpg",
                             Name = "SAMA 3307 140mm без БЖ Black",
                             Price = 2099.0
@@ -1613,7 +1613,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7545),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/457790-596348-category_page/msi-mag-forge-m100r-bez-bp-black.png",
                             Name = "MSI MAG FORGE M100R без БЖ Black",
                             Price = 2499.0
@@ -1624,7 +1624,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7547),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/775667-1004296-category_page/sama-3307-140mm-bez-bp-white.jpg",
                             Name = "SAMA 3307 140mm без БЖ White",
                             Price = 2149.0
@@ -1635,7 +1635,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7549),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793605-1002413-category_page/sama-v40-bez-bp-v40-bkada6x1-gl-black.jpg",
                             Name = "SAMA V40 без БЖ (V40-BKADA6X1-GL) Black",
                             Price = 2799.0
@@ -1646,7 +1646,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7552),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793607-1073568-category_page/sama-v40e-bez-bp-v40e-bkad00x1-ru-black.png",
                             Name = "SAMA V40E без БЖ (V40E-BKAD00X1-RU) Black",
                             Price = 1899.0
@@ -1657,7 +1657,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7554),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/577056-724081-category_page/aerocool-apnx-creator-c1-bez-bp-apcm-cr0104321-white.png",
                             Name = "APNX Creator C1 без БЖ (APCM-CR01043.21) White",
                             Price = 4999.0
@@ -1668,7 +1668,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7556),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/547155-695956-category_page/montech-air-100-argb-bez-bp-black.png",
                             Name = "Montech Air 100 ARGB без БЖ Black",
                             Price = 2479.0
@@ -1679,7 +1679,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7558),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/679129-918787-category_page/sama-3307-bez-bp-black.jpg",
                             Name = "SAMA 3307 без БЖ Black",
                             Price = 1949.0
@@ -1690,7 +1690,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7561),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/773502-969109-category_page/pccooler-k101-mesh-3f-bez-bp-grey.jpg",
                             Name = "PCCooler K101 Mesh 3F без БЖ Grey",
                             Price = 4899.0
@@ -1701,7 +1701,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7563),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793610-1002471-category_page/sama-v60-bez-bp-v60-bkada7x1-gl-black.jpg",
                             Name = "SAMA V60 без БЖ (V60-BKADA7X1-GL) Black",
                             Price = 3699.0
@@ -1712,7 +1712,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7565),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/780957-999425-category_page/thermalright-tl-m10-vision-bez-bp-black.jpg",
                             Name = "Thermalright TL-M10 Vision без БЖ Black",
                             Price = 3949.0
@@ -1723,7 +1723,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7567),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/679100-912367-category_page/sama-neview-2851m-bez-bp-white.jpg",
                             Name = "SAMA Neview 2851M без БЖ White",
                             Price = 3199.0
@@ -1734,7 +1734,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7570),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/742738-919351-category_page/sama-4501-bez-bp-white.jpg",
                             Name = "SAMA 4502 без БЖ White",
                             Price = 4099.0
@@ -1745,7 +1745,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7572),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/813822-1041755-category_page/gamemax-t20-tempered-glass-bez-bp-white.jpg",
                             Name = "GAMEMAX T20 Tempered Glass без БЖ White",
                             Price = 2899.0
@@ -1756,7 +1756,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7574),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/745029-920109-category_page/gigabyte-c201-panoramic-tempered-glass-bez-bp-gb-c201p-black.jpg",
                             Name = "Gigabyte C201 Panoramic Tempered Glass без БЖ (GB-C201P) Black",
                             Price = 3799.0
@@ -1767,7 +1767,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7576),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/492541-1078446-category_page/cougar-duoface-rgb-tempered-glass-bez-bp-black.jpg",
                             Name = "Cougar Duoface RGB Tempered Glass без БЖ Black",
                             Price = 3399.0
@@ -1778,7 +1778,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7579),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/813821-1041741-category_page/gamemax-t20-tempered-glass-bez-bp-black.jpg",
                             Name = "GAMEMAX T20 Tempered Glass без БЖ Black",
                             Price = 2899.0
@@ -1789,7 +1789,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7581),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/691111-855421-category_page/cougar-fv150-rgb-bez-bp-white.jpg",
                             Name = "Cougar FV150 RGB без БЖ White",
                             Price = 4399.0
@@ -1799,7 +1799,7 @@ namespace PD411_Shop.Migrations
                             Id = 159,
                             Amount = 0,
                             CategoryId = 8,
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7629),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/816995-1045760-category_page/asus-rog-strix-helios-ii-gx601s-hatsune-miku-edition-tempered-glass-bez-bp-90dc00w0-b39010-green.jpg",
                             Name = "Asus ROG Strix Helios II GX601S Hatsune Miku Edition Tempered Glass без БЖ (90DC00W0-B39010) Green",
                             Price = 23499.0
@@ -1810,7 +1810,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 8,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7631),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/679123-912313-category_page/sama-m203-bez-bp-black.jpg",
                             Name = "SAMA M203 без БЖ Black",
                             Price = 1899.0
@@ -1821,7 +1821,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7633),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/489265-629246-category_page/id-cooling-se-224-xts-black-se-224-xts-black.jpg",
                             Name = "ID-Cooling SE-224-XTS BLACK (SE-224-XTS BLACK)",
                             Price = 1049.0
@@ -1832,7 +1832,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7635),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/439531-583098-category_page/deepcool-ag400-argb-black.jpg",
                             Name = "Deepcool AG400 ARGB (R-AG400-BKANMC-G-2) Black",
                             Price = 1569.0
@@ -1843,7 +1843,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7638),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/598716-740728-category_page/id-cooling-frozn-a400-frozn-a400-black.jpg",
                             Name = "ID-Cooling Frozn A400 (FROZN A400 Black)",
                             Price = 929.0
@@ -1854,7 +1854,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7640),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/578964-725102-category_page/aerocool-apnx-ap1-aptc-pf3051721-white.jpg",
                             Name = "APNX AP1 (APTC-PF30517.21) White",
                             Price = 1999.0
@@ -1865,7 +1865,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7642),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793652-1003001-category_page/sama-a40l-a40-xxwayxox-g-blacksilver.jpg",
                             Name = "SAMA A40L (A40-XXWAYXOX-G) Black/Silver",
                             Price = 1049.0
@@ -1876,7 +1876,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7644),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793651-1002982-category_page/sama-a40e-a40-xxwnnxox-g-blacksilver.jpg",
                             Name = "SAMA A40E (A40-XXWNNXOX-G) Black/Silver",
                             Price = 999.0
@@ -1887,7 +1887,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7647),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793650-1002966-category_page/sama-a40-a40-bkwnnxox-g-black.jpg",
                             Name = "SAMA A40 (A40-BKWNNXOX-G) Black",
                             Price = 1099.0
@@ -1898,7 +1898,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7649),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/601260-758070-category_page/arctic-freezer-36-acfre00121a.png",
                             Name = "Arctic Freezer 36 (ACFRE00121A)",
                             Price = 1749.0
@@ -1909,7 +1909,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7651),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/762011-950293-category_page/thermalright-assassin-x-120-v2.jpg",
                             Name = "Thermalright Assassin X 120 V2",
                             Price = 1149.0
@@ -1920,7 +1920,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7653),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793654-1003193-category_page/sama-x40l-x40-xxwayxox-g-blacksilver.jpg",
                             Name = "SAMA X40L (X40-XXWAYXOX-G) Black/Silver",
                             Price = 899.0
@@ -1931,7 +1931,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7655),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/725685-893568-category_page/zalman-cnps9x-performa-plus-black.jpg",
                             Name = "Zalman CNPS9X Performa Plus Black",
                             Price = 1369.0
@@ -1942,7 +1942,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7658),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/762037-951454-category_page/thermalright-burst-assassin-120-vision-black.jpg",
                             Name = "Thermalright Burst Assassin 120 Vision Black",
                             Price = 2749.0
@@ -1953,7 +1953,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7660),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/494061-633429-category_page/zalman-cnps9x-performa-argb-white.jpg",
                             Name = "Zalman CNPS9X Performa ARGB White",
                             Price = 1529.0
@@ -1964,7 +1964,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7663),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/709035-877936-category_page/id-cooling-frozn-a620-pro-se-frozn-a620-pro-se.jpg",
                             Name = "ID-Cooling FROZN A620 PRO SE (FROZN A620 PRO SE)",
                             Price = 2199.0
@@ -1975,7 +1975,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7686),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793655-1003182-category_page/sama-x30-x30-bkwnyxox-g-black.jpg",
                             Name = "SAMA X30 (X30-BKWNYXOX-G) Black",
                             Price = 759.0
@@ -1986,7 +1986,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7688),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/711290-878977-category_page/id-cooling-frozn-a620-gdl-frozn-a620-gdl.jpg",
                             Name = "ID-Cooling FROZN A620 GDL (FROZN A620 GDL)",
                             Price = 2899.0
@@ -1997,7 +1997,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Сірий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7691),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/762006-950108-category_page/thermalright-assassin-king-120-se.jpg",
                             Name = "Thermalright Assassin King 120 SE",
                             Price = 999.0
@@ -2008,7 +2008,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7693),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/793657-1017318-category_page/sama-x20-x20-xxwnyxox-g-blacksilver.jpg",
                             Name = "SAMA X20 (X20-XXWNYXOX-G) Black/Silver",
                             Price = 589.0
@@ -2019,7 +2019,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7695),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/679160-912057-category_page/sama-l4p120-white.jpg",
                             Name = "SAMA L4P120 White",
                             Price = 999.0
@@ -2030,7 +2030,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 9,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7697),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/801784-1013835-category_page/msi-mag-corefrozr-aa13-black.png",
                             Name = "MSI MAG COREFROZR AA13 Black",
                             Price = 1399.0
@@ -2041,7 +2041,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7700),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/755364-938252-category_page/arctic-liquid-freezer-iii-pro-360-acfre00180a-black.jpg",
                             Name = "Arctic Liquid Freezer III Pro 360 (ACFRE00180A) Black",
                             Price = 5599.0
@@ -2052,7 +2052,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7702),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/755362-938267-category_page/arctic-liquid-freezer-iii-pro-360-a-rgb-acfre00184a-black.jpg",
                             Name = "Arctic Liquid Freezer III Pro 360 A-RGB (ACFRE00184A) Black",
                             Price = 6199.0
@@ -2063,7 +2063,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7704),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/689914-854093-category_page/msi-mag-coreliquid-a13-360-black.jpg",
                             Name = "MSI MAG CoreLiquid A13 360 Black",
                             Price = 3699.0
@@ -2074,7 +2074,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7706),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/725697-894630-category_page/msi-mag-coreliquid-a15-240-black.jpg",
                             Name = "MSI MAG CoreLiquid A15 240 Black",
                             Price = 3799.0
@@ -2085,7 +2085,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7709),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/572118-719113-category_page/gigabyte-aorus-waterforce-ii-360.png",
                             Name = "Gigabyte AORUS WATERFORCE II 360",
                             Price = 5999.0
@@ -2096,7 +2096,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7711),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/491645-630654-category_page/corsair-icue-h170i-elite-capellix-xt-cw-9060071-ww.jpg",
                             Name = "Corsair iCUE H170i Elite Capellix XT (CW-9060071-WW)",
                             Price = 5199.0
@@ -2107,7 +2107,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7713),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/755363-938283-category_page/arctic-liquid-freezer-iii-pro-360-a-rgb-acfre00188a-white.jpg",
                             Name = "Arctic Liquid Freezer III Pro 360 A-RGB (ACFRE00188A) White",
                             Price = 6599.0
@@ -2118,7 +2118,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7715),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/475496-629375-category_page/deepcool-lt520-white.jpg",
                             Name = "Deepcool LT520 (R-LT520-WHAMNF-G-1) White",
                             Price = 3899.0
@@ -2129,7 +2129,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7718),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/572117-719118-category_page/gigabyte-aorus-waterforce-ii-360-ice.png",
                             Name = "Gigabyte AORUS WATERFORCE II 360 ICE",
                             Price = 5999.0
@@ -2140,7 +2140,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7720),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/679174-917843-category_page/sama-sm360-pro-white.png",
                             Name = "SAMA SM360 Pro White",
                             Price = 5999.0
@@ -2151,7 +2151,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7722),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/389435-542125-category_page/msi-meg-coreliquid-s360.png",
                             Name = "MSI MEG CORELIQUID S360",
                             Price = 11999.0
@@ -2162,7 +2162,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7724),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/767278-991857-category_page/sama-sm240-black.jpg",
                             Name = "SAMA SM240 Black",
                             Price = 4999.0
@@ -2173,7 +2173,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7727),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/571645-719818-category_page/id-cooling-dashflow-360-xt-dashflow-360-xt.jpg",
                             Name = "ID-Cooling DASHFLOW 360 XT",
                             Price = 5499.0
@@ -2184,7 +2184,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7729),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/767283-991959-category_page/sama-si360mm-white.jpg",
                             Name = "SAMA SI360mm White",
                             Price = 3399.0
@@ -2195,7 +2195,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7731),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/678004-835790-category_page/be-quiet-light-loop-360mm-bw022-black.jpg",
                             Name = "Be Quiet! Light Loop 360mm (BW022) Black",
                             Price = 7299.0
@@ -2206,7 +2206,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Чорний",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7733),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/629551-776073-category_page/deepcool-mystique-360-r-lx750-bkdsnmp-g-1-black.jpg",
                             Name = "Deepcool MYSTIQUE 360 (R-LX750-BKDSNMP-G-1) Black",
                             Price = 7779.0
@@ -2217,7 +2217,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7736),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/752614-934622-category_page/deepcool-mystique-240-r-lx240-whdsnmp-g-1-white.jpg",
                             Name = "Deepcool MYSTIQUE 240 (R-LX240-WHDSNMP-G-1) White",
                             Price = 7059.0
@@ -2228,7 +2228,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7738),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/641073-791155-category_page/msi-mag-coreliquid-i360-white.jpg",
                             Name = "MSI MAG CoreLiquid I360 White",
                             Price = 7199.0
@@ -2239,7 +2239,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7740),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/549349-698079-category_page/msi-mag-coreliquid-e240-white.jpg",
                             Name = "MSI MAG CoreLiquid E240 White",
                             Price = 4999.0
@@ -2250,7 +2250,7 @@ namespace PD411_Shop.Migrations
                             Amount = 0,
                             CategoryId = 10,
                             Color = "Білий",
-                            CreatedDate = new DateTime(2026, 2, 12, 10, 54, 41, 333, DateTimeKind.Utc).AddTicks(7742),
+                            CreatedDate = new DateTime(2026, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Image = "https://img.telemart.ua/641075-791148-category_page/msi-mag-coreliquid-i240-white.png",
                             Name = "MSI MAG CoreLiquid I240 White",
                             Price = 5599.0
