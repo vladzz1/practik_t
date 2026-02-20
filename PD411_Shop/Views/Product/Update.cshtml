@@ -1,4 +1,4 @@
-﻿@model CreateProductVM
+﻿@model UpdateProductVM
 
 <h2 class="text-center">Додавання товару</h2>
 <div class="d-flex justify-content-center w-50 m-auto">
@@ -7,6 +7,7 @@
           asp-controller="Product"
           asp-action="Create"
           enctype="multipart/form-data">
+        <input hidden type="number" class="form-control" id="id" name="id" asp-for="Id" />
         <div>
             <label for="name" class="form-label mt-2">Назва</label>
             <input type="text" class="form-control" id="name" name="name" asp-for="Name" />
@@ -57,7 +58,7 @@
             </div>
         </div>
         <div class="text-center mt-3">
-            <input class="btn btn-success w-25" type="submit" value="Додати">
+            <input class="btn btn-success w-25" type="submit" value="Зберегти">
             <a class="btn btn-dark w-25" asp-controller="Product" asp-action="Index">Назад</a>
         </div>
     </form>

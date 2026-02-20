@@ -1,6 +1,6 @@
-﻿﻿@* @model IEnumerable<ProductModel> *@
+﻿@model IEnumerable<ProductModel>
 
-<div class="text-center">
+<div class="text-center container">
     <table class="table table-striped align-middle">
         <thead class="table-dark">
             <tr>
@@ -36,6 +36,9 @@
                     <td>
                         <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id">
                             <i class="bi bi-trash-fill" style="color: red"></i>
+                        </a>
+                        <a asp-controller="Product" asp-action="Update" asp-route-id="@product.Id">
+                            <i class="bi bi-pencil-fill" style="color: green"></i>
                         </a>
                     </td>
                 </tr>
