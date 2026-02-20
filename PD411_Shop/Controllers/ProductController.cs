@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PD411_Shop.Data;
 using PD411_Shop.Models;
+using PD411_Shop.ViewModels;
+using System.Drawing;
 
 namespace PD411_Shop.Controllers
 {
@@ -31,61 +34,65 @@ namespace PD411_Shop.Controllers
             var products = _context.Products.Include(p => p.Category).AsNoTracking().AsEnumerable();
             return View(products);
         }
+        public IActionResult Categories()
+        {
+            var categories = _context.Categories.AsNoTracking().AsEnumerable();
+            return View(categories);
+        }
         // GET
-        //public async Task<IActionResult> Create()
-        //{
-        //    var viewModel = new CreateProductVM
-        //    {
-        //        SelectCategories = await GetSelectCategoriesAsync()
-        //    };
+        public async Task<IActionResult> Create()
+        {
+            var viewModel = new CreateProductVM
+            {
+                SelectCategories = await GetSelectCategoriesAsync()
+            };
 
-        //    return View(viewModel);
-        //}
-
+            return View(viewModel);
+        }
         // POST
         // [FromForm] - очікує дані у форматі multipart/form-data
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Create([FromForm] CreateProductVM vm)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        vm.SelectCategories = await GetSelectCategoriesAsync();
-        //        return View(vm);
-        //    }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([FromForm] CreateProductVM vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                vm.SelectCategories = await GetSelectCategoriesAsync();
+                return View(vm);
+            }
 
-        //    ProductModel model = new ProductModel
-        //    {
-        //        Name = vm.Name ?? string.Empty,
-        //        Amount = vm.Amount,
-        //        Color = vm.Color,
-        //        Description = vm.Description,
-        //        Price = vm.Price,
-        //        CategoryId = vm.CategoryId
-        //    };
+            ProductModel model = new ProductModel
+            {
+                Name = vm.Name ?? string.Empty,
+                Amount = vm.Amount,
+                Color = vm.Color,
+                Description = vm.Description,
+                Price = vm.Price,
+                CategoryId = vm.CategoryId
+            };
 
-        //    // Save Image
-        //    if (vm.Image != null)
-        //    {
-        //        string root = Directory.GetCurrentDirectory();
-        //        string imagesPath = Path.Combine(root, "wwwroot", "images");
-        //        string ext = Path.GetExtension(vm.Image.FileName);
-        //        string name = Guid.NewGuid().ToString();
-        //        string fileName = name + ext;
-        //        string filePath = Path.Combine(imagesPath, fileName);
+            // Save Image
+            if (vm.Image != null)
+            {
+                string root = Directory.GetCurrentDirectory();
+                string imagesPath = Path.Combine(root, "wwwroot", "images");
+                string ext = Path.GetExtension(vm.Image.FileName);
+                string name = Guid.NewGuid().ToString();
+                string fileName = name + ext;
+                string filePath = Path.Combine(imagesPath, fileName);
 
-        //        using var imageStream = vm.Image.OpenReadStream();
-        //        using var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write);
-        //        imageStream.CopyTo(fileStream);
+                using var imageStream = vm.Image.OpenReadStream();
+                using var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write);
+                imageStream.CopyTo(fileStream);
 
-        //        model.Image = fileName;
-        //    }
+                model.Image = fileName;
+            }
 
-        //    await _context.Products.AddAsync(model);
-        //    await _context.SaveChangesAsync();
+            await _context.Products.AddAsync(model);
+            await _context.SaveChangesAsync();
 
-        //    return RedirectToAction("Index");
-        //}
+            return RedirectToAction("Index");
+        }
 
         // DELETE
         public async Task<IActionResult> Delete(int id)
@@ -108,6 +115,71 @@ namespace PD411_Shop.Controllers
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
             }
+            return RedirectToAction("Index");
+        }
+        //GET
+        public async Task<IActionResult> Update(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (product != null)
+            {
+                var viewModel = new UpdateProductVM
+                {
+                    Id = product.Id,
+                    SelectCategories = await GetSelectCategoriesAsync(),
+                    Name = product.Name,
+                    Description = product.Description,
+                    Price = product.Price,
+                    Amount = product.Amount,
+                    Color = product.Color,
+                    CategoryId = product.CategoryId
+                };
+                return View(viewModel);
+            }
+            else { return RedirectToAction("Index"); }
+        }
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update([FromForm] UpdateProductVM vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                vm.SelectCategories = await GetSelectCategoriesAsync();
+                return View(vm);
+            }
+            ProductModel model = await _context.Products.FirstAsync(m => m.Id == vm.Id);
+            model.Name = vm.Name ?? string.Empty;
+            model.Amount = vm.Amount;
+            model.Color = vm.Color;
+            model.Description = vm.Description;
+            model.Price = vm.Price;
+            model.CategoryId = vm.CategoryId;
+            // Save Image
+            if (vm.Image != null)
+            {
+                string root = Directory.GetCurrentDirectory();
+                string imagesPath = Path.Combine(root, "wwwroot", "images");
+                string ext = Path.GetExtension(vm.Image.FileName);
+                string name = Guid.NewGuid().ToString();
+                string fileName = name + ext;
+                string filePath = Path.Combine(imagesPath, fileName);
+
+                if (model.Image != null)
+                {
+                    if (System.IO.File.Exists(Path.Combine(imagesPath, model.Image)))
+                    {
+                        System.IO.File.Delete(Path.Combine(imagesPath, model.Image));
+                    }
+                }
+
+                using var imageStream = vm.Image.OpenReadStream();
+                using var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write);
+                imageStream.CopyTo(fileStream);
+
+                model.Image = fileName;
+            }
+            await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
     }
