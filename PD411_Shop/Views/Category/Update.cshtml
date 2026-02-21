@@ -1,0 +1,23 @@
+﻿@model UpdateCategoryVM
+
+<h2 class="text-center">Змінення категорії</h2>
+<div class="d-flex justify-content-center w-50 m-auto">
+    <form class="w-100 text-center bg-body-tertiary py-2 px-4"
+          method="post"
+          asp-controller="Category"
+          asp-action="Update"
+          enctype="multipart/form-data">
+        <input hidden type="number" class="form-control" id="id" name="id" asp-for="Id" />
+        <div>
+            <label for="name" class="form-label mt-2">Назва</label>
+            <input type="text" class="form-control" id="name" name="name" asp-for="Name" />
+            <div class="text-start ms-2" style="min-height: 24px;">
+                <span class="text-danger" style="font-size: 12px;" asp-validation-for="Name"></span>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <input class="btn btn-success w-25" type="submit" value="Зберегти">
+            <a class="btn btn-dark w-25" asp-controller="Category" asp-action="Index">Назад</a>
+        </div>
+    </form>
+</div>

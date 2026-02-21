@@ -12,11 +12,7 @@ using PD411_Shop.Data;
 namespace PD411_Shop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-<<<<<<<< HEAD:PD411_Shop/Migrations/20260216153134_Init.Designer.cs
-    [Migration("20260216153134_Init")]
-========
-    [Migration("20260217090154_Init")]
->>>>>>>> 2518c92ac8effab4d73a0d30136811825c292193:PD411_Shop/Migrations/20260217090154_Init.Designer.cs
+    [Migration("20260221141102_Init")]
     partial class Init
     {
         /// <inheritdoc />

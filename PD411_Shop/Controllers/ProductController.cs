@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PD411_Shop.Data;
 using PD411_Shop.Models;
 using PD411_Shop.ViewModels;
-using System.Drawing;
 
 namespace PD411_Shop.Controllers
 {
@@ -33,11 +31,6 @@ namespace PD411_Shop.Controllers
         {
             var products = _context.Products.Include(p => p.Category).AsNoTracking().AsEnumerable();
             return View(products);
-        }
-        public IActionResult Categories()
-        {
-            var categories = _context.Categories.AsNoTracking().AsEnumerable();
-            return View(categories);
         }
         // GET
         public async Task<IActionResult> Create()
