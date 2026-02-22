@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PD411_Shop.Data;
 using PD411_Shop.Models;
 using PD411_Shop.ViewModels;
@@ -51,6 +52,18 @@ namespace PD411_Shop.Controllers
         public IActionResult AboutUs()
         {
             return View();
+        }
+
+        public async Task<IActionResult> ProductDescription(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (product != null)
+            {
+                var category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == product.CategoryId);
+                product.Category = category;
+                return View(product);
+            }
+            else { return RedirectToAction("Index"); }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

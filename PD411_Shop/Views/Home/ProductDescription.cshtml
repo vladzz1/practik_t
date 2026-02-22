@@ -1,0 +1,16 @@
+﻿@model ProductModel
+
+<img height="300" width="250" style="object-fit: contain;" class="card-img-top" src="~/images/@(Model.Image ?? "default.jpg")" alt="@Model.Name">
+<div style="margin-left: 40.7%">
+    <div>Id: @Model.Id</div>
+    <div>Назва: @Model.Name</div>
+    <div>Опис: @(Model.Description ?? "Немає опису")</div>
+    <div>Ціна: @Model.Price</div>
+    <div>Кількість: @Model.Amount</div>
+    <div>Колір: @(Model.Color ?? "Немає кольору")</div>
+    <div>Дата створення: @Model.CreatedDate</div>
+    <div>Категорія: @Model.Category!.Name</div>
+</div>
+<div class="text-center mt-3">
+    <a class="btn btn-dark w-25" asp-controller="Home" asp-action="Index">Назад</a>
+</div>

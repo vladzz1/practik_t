@@ -1,10 +1,10 @@
 ﻿@model ProductModel
 
-<div class="card col-3" style="width: 18rem;">
-    <img height="300" width="250" style="object-fit: contain;" class="card-img-top" src="~/images/@(Model.Image ?? "default.jpg")" alt="@Model.Name">
+<div class="card col-3 @(Model.Amount == 0 ? "dark-card" : "")" style="width: 18rem;">
+    <a asp-controller="Home" asp-action="ProductDescription" asp-route-id="@Model.Id"><img height="300" width="250" style="object-fit: contain;" class="card-img-top" src="~/images/@(Model.Image ?? "default.jpg")" alt="@Model.Name"></a>
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
-        <h4>₴@Model.Price</h4>
+        <h4>@(Model.Amount != 0 ? "₴" + Model.Price : "Немає в наявності")</h4>
         <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
 </div>

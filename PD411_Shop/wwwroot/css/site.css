@@ -44,3 +44,5 @@ body {
     color: dimgray;
     cursor: pointer;
 }
+
+.dark-card { background-color: #e4e4e4 }
