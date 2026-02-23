@@ -72,6 +72,12 @@ namespace PD411_Shop.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Display(Name = "FirstName")]
+            public string Firstname { get; set; }
+            [Required]
+            [Display(Name = "Lastname")]
+            public string Lastname { get; set; }
+            [Required]
             [Display(Name = "Username")]
             public string Username { get; set; }
             /// <summary>
