@@ -72,12 +72,6 @@ namespace PD411_Shop.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            [Display(Name = "FirstName")]
-            public string Firstname { get; set; }
-            [Required]
-            [Display(Name = "Lastname")]
-            public string Lastname { get; set; }
-            [Required]
             [Display(Name = "Username")]
             public string Username { get; set; }
             /// <summary>
@@ -88,6 +82,9 @@ namespace PD411_Shop.Areas.Identity.Pages.Account
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
+
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -128,9 +125,14 @@ namespace PD411_Shop.Areas.Identity.Pages.Account
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
+                user.FirstName = Input.FirstName;
+                user.LastName = Input.LastName;
+
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    await _userManager.AddToRoleAsync(user, "user");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
