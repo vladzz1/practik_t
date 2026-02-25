@@ -46,3 +46,21 @@ body {
 }
 
 .dark-card { background-color: #e4e4e4 }
+
+.badge {
+    position: relative;
+    top: -18px;
+    left: -20px;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+}
+
+.dark-cart-btn { color: #535050}
+
+.cart-elements-style {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 30px 0 30px;
+    box-shadow: 2px 2px 10px 5px black;
+}

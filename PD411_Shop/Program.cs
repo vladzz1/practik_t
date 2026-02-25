@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// DbContext
+// Add DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     string connectionString = @"Data Source = DESKTOP-B6M267U\SQLEXPRESS; Initial Catalog = PD411_MVC_SHOP; Integrated Security = true; TrustServerCertificate = True";
@@ -17,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
-// Identity
+// Add Identity
 builder.Services.AddIdentity<UserModel, IdentityRole>(options =>
 {
     options.User.RequireUniqueEmail = true;
@@ -28,6 +28,15 @@ builder.Services.AddIdentity<UserModel, IdentityRole>(options =>
     options.Password.RequireUppercase = false;
     options.Password.RequireLowercase = false;
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders().AddDefaultUI();
+
+// Add Session
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromHours(1);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 // DI 
 // builder.Services.AddSingleton(); // патерн Singleton - об'єкт класу буде існувати в єдиноиу екземплярі
@@ -46,6 +55,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -1,0 +1,10 @@
+﻿@inject IHttpContextAccessor ContextAccessor
+@foreach (var item in ContextAccessor.HttpContext!.Session.Get<List<CartItemVM>>()!)
+{
+    <div class="cart-elements-style">
+        <span style="font-size: 20px">@item.Count Загальна ціна: ₴0</span>
+    </div>
+}
+<div class="cart-elements-style">
+    <span style="font-size: 20px">Загальна ціна всіх товарів: ₴0</span>
+</div>
