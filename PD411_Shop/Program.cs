@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using PD411_Shop.Data;
 using PD411_Shop.Models;
 using PD411_Shop.Repositories;
+using PD411_Shop.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,7 +42,10 @@ builder.Services.AddSession(options =>
 // DI 
 // builder.Services.AddSingleton(); // патерн Singleton - об'єкт класу буде існувати в єдиноиу екземплярі
 // builder.Services.AddTransient(); // об'єкт класу буде створюватися при кожному використанні
-builder.Services.AddScoped<ProductRepostitory>(); // об'єкт класу буде створюватися при запиті та видаляти після його завершення
+// builder.Services.AddScoped(); // об'єкт класу буде створюватися при запиті та видаляти після його завершення
+builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddScoped<CategoryRepository>();
+builder.Services.AddScoped<ImageService>();
 
 var app = builder.Build();
 

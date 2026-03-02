@@ -1,8 +1,16 @@
 ﻿@inject IHttpContextAccessor ContextAccessor
+@inject ProductRepository _productRepository
 @foreach (var item in ContextAccessor.HttpContext!.Session.Get<List<CartItemVM>>()!)
 {
+    var product = await _productRepository.GetByIdAsync(item.ProductId);
     <div class="cart-elements-style">
-        <span style="font-size: 20px">@item.Count Загальна ціна: ₴0</span>
+        <div style="display: flex; align-items: center; justify-content: center">
+            <img class="image-scale" height="70" src="~/images/@(product!.Image != null ? $"{PathSettings.Products}/{product.Image}" : "default.jpg")" alt="@product.Name">
+            <i class="bi bi-arrow-left-circle-fill" style="font-size: 30px; color: green; margin: 10px; cursor: pointer" onclick="@(() => CartService.Decrement(ContextAccessor.HttpContext!.Session, product.Id))"></i>
+            <span style="font-size: 20px">@item.Count</span>
+            <i class="bi bi-arrow-right-circle-fill" style="font-size: 30px; color: green; margin: 10px; cursor: pointer" onclick="@(() => CartService.Increment(ContextAccessor.HttpContext!.Session, product.Id))"></i>
+            <span style="font-size: 20px">Загальна ціна: ₴@(product.Price* item.Count)</span>
+        </div>
     </div>
 }
 <div class="cart-elements-style">
