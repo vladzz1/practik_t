@@ -38,5 +38,15 @@ namespace PD411_Shop.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+        public IActionResult Decrement(int id) 
+        {
+            CartService.Decrement(HttpContext.Session, id);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Increment(int id)
+        {
+            CartService.Increment(HttpContext.Session, id);
+            return RedirectToAction("Index");
+        }
     }
 }
